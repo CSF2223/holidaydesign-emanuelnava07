@@ -22,7 +22,7 @@ body {
     padding: .5;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 300;
-    background-color: #1C315E;
+    background-color: #850000;
     color: #fff;
     
 }
@@ -31,27 +31,31 @@ body {
 header {
     text-align: center;
     font-size: 1.5rem;
+    letter-spacing: .5rem;
 }
 
 
 article {
     margin: 3rem 0;
+    display: table;
 }
 
 
 p {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    
 }
 
 
 img {
-    width: 100%;
-    height: auto;
+    display: block;
+    max-width: 100%;
     border-radius: 2rem;
-    margin: 0;
-    
-}
+    margin: auto;
+ }
 
 footer {
     text-align: center;
@@ -65,5 +69,30 @@ footer {
 }
 
 @media (min-width: 800px) {
+    
+    .screen {
+        margin: -1rem;
+        width: 50%;
+        border-radius: 2rem;
+        height: auto;
+    }
+    
+    img {
+      display: block;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    
+    p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    }
+    
+    
     
 }
