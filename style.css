@@ -1,0 +1,98 @@
+/*
+Color Palette
+background color: #1C315E
+primary: 
+secondary: 
+tertiary: #6F4D8F
+accent: #9277AC
+vegasGold: #c5b358
+white: #fff
+black: #000  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 1;
+    padding: .5;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    background-color: #850000;
+    color: #fff;
+    
+}
+
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+}
+
+
+article {
+    margin: 3rem 0;
+    display: table;
+}
+
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 3px;
+    
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin: auto;
+ }
+
+footer {
+    text-align: center;
+    margin: 5rem 0;
+    border-top: 1px solid #fff;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 800px) {
+    
+    .screen {
+        margin: -1rem;
+        width: 50%;
+        border-radius: 2rem;
+        height: auto;
+    }
+    
+    img {
+      display: block;
+    max-width: 100%;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    
+    p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    }
+    
+    
+    
+}
